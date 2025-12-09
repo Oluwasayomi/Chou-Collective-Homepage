@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 /* Arial Fonts*/
 @font-face {
         font-family: 'Arial'; 
@@ -106,4 +101,35 @@
         src: url('fonts/OpenSans-Bold.ttf') format('truetype');
         font-weight: 700;
         font-style: normal;
+}
+
+/* Other css file imports */
+
+/* CSS variables for reusability */
+
+:root {
+
+  /* Fonts */
+  --Arial: "Arial", sans-serif;
+  --Knockout: "Knockout", sans-serif;
+  --Nunito: "Nunito", sans-serif;
+  --Opensans: "OpenSans", sans-serif;
+
+  /* Colour Palatte */
+  --chou-purple: #27004B;
+
+  --color-white: #ffffff;
+  --color-black: #0D0D0D;
+
+  --rich-grey: #262626;
+  --medium-grey: #D1D3D4;
+  --light-grey: #F8F8F8;
+
+  --fuschia: #810054;
+  --rich-gold: #DBA510;
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }

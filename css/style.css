@@ -105,6 +105,8 @@
 
 /* Other css file imports */
 
+@import url(sections/header.css);
+
 /* CSS variables for reusability */
 
 :root {

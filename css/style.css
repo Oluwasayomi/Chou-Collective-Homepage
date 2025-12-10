@@ -112,9 +112,9 @@
 :root {
 
   /* Fonts */
+  --Nunito: "Nunito", sans-serif;
   --Arial: "Arial", sans-serif;
   --Knockout: "Knockout", sans-serif;
-  --Nunito: "Nunito", sans-serif;
   --Opensans: "OpenSans", sans-serif;
 
   /* Colour Palatte */
@@ -146,4 +146,39 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--Opensans);
+
+  color: var(--color-black);
+  opacity: 0.8;
+
+  letter-spacing: -0.01em;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 600;
+  font-family: var(--Knockout);
+
+  color: var(--color-white);
+
+  margin-top: 16px;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--Nunito);
+
+  line-height: 36px;
+  letter-spacing: -0.01em;
+
+  color: var(--color-white);
+  opacity: 0.8;
+
+  margin: 32px 0px;
 }

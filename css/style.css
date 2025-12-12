@@ -154,7 +154,9 @@ a {
   font-size: 18px;
   font-weight: 400;
   font-family: var(--Opensans);
+
   letter-spacing: 3px;
+  text-transform: uppercase;
 
   color: var(--color-black);
 }
@@ -163,7 +165,9 @@ a {
   font-size: 64px;
   font-weight: 700;
   font-family: var(--Knockout);
+
   letter-spacing: 3px;
+  text-transform: uppercase;
 
   color: var(--color-white);
 }

@@ -19,3 +19,63 @@
 .text-box h1 {
     text-transform: uppercase;
 }
+
+.hero_weaving {
+    display: flex;
+    min-height: 60vh;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.hero_weaving_grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.hero_weaving img {
+    border-radius: 25px;
+}
+
+.hero_weaving-image1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero_weaving-image2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero_weaving-image3 {
+   grid-column: 2/3;
+   grid-row: 2/3;
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+}
+
+.hero_weaving-text {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: 60%
+}
+
+.hero_weaving-text p {
+    color: var(--color-black);
+}

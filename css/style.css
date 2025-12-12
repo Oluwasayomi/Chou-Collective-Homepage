@@ -1,3 +1,7 @@
+/* Other css file imports */
+
+@import url("sections/header.css");
+
 /* Arial Fonts*/
 @font-face {
         font-family: 'Arial'; 
@@ -102,10 +106,6 @@
         font-weight: 700;
         font-style: normal;
 }
-
-/* Other css file imports */
-
-@import url("sections/header.css");
 
 /* CSS variables for reusability */
 

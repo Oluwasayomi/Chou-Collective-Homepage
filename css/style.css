@@ -1,6 +1,7 @@
 /* Other css file imports */
 
 @import url("sections/header.css");
+@import url("sections/home.css");
 
 /* Arial Fonts*/
 @font-face {
@@ -153,21 +154,18 @@ a {
   font-size: 18px;
   font-weight: 400;
   font-family: var(--Opensans);
+  letter-spacing: 3px;
 
   color: var(--color-black);
-  opacity: 0.8;
-
-  letter-spacing: -0.01em;
 }
 
 .title {
   font-size: 64px;
-  font-weight: 600;
+  font-weight: 700;
   font-family: var(--Knockout);
+  letter-spacing: 3px;
 
   color: var(--color-white);
-
-  margin-top: 16px;
 }
 
 .description {
@@ -179,7 +177,6 @@ a {
   letter-spacing: -0.01em;
 
   color: var(--color-white);
-  opacity: 0.8;
 
-  margin: 32px 0px;
+  margin: 16px 0px;
 }

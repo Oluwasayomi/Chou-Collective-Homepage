@@ -140,6 +140,7 @@
 
 body {
   margin: 0 auto;
+  font-family: var(--Nunito);
   background-color: var(--color-white);
 }
 

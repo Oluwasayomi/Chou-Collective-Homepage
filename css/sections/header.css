@@ -50,6 +50,8 @@ header {
 }
 
 .header_menu li a {
+    display: inline-flex;
+    align-items: center;
     letter-spacing: 3px;
     transition: color 0.2s ease;
 }
@@ -59,8 +61,8 @@ header {
 }
   
 .header_menu li img {
-    width: 10px;
-    height: 10px;
-    object-fit: contain;
-    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 2px;
 }

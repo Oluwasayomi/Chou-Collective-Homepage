@@ -1,7 +1,7 @@
 .home_banner {
     min-height: 84vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.2), rgba(4,9,30,0.2)), url(/images/Cover-Homepage.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.2), rgba(4,9,30,0.2)), url(../../images/Cover-Homepage.jpg);
     background-position: center;
     background-size: cover;
     position: relative;

@@ -158,7 +158,7 @@
     flex-direction: column;
     justify-content: center;
     min-height: 30vh; 
-    padding: 0 15%;
+    padding: 0 15% 5% 15%;
 }
 
 .ensemble_header {

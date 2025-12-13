@@ -22,6 +22,8 @@
 
 .hero_weaving {
     display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 60vh;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -33,9 +35,8 @@
     grid-auto-columns: 1fr;
     grid-auto-rows: auto;
     gap: 20px;
-    max-width: 1200px;
+    max-width: 95%;
     margin: 0 auto;
-    padding: 10px;
 }
 
 .hero_weaving img, .hero_weaving-box2 {

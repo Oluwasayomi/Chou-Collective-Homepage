@@ -66,3 +66,37 @@ header {
     position: relative;
     top: 2px;
 }
+
+.header_menu li.navbar_dropdown::after {
+    content: none;
+}
+
+.navbar_dropdown_arrow {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar_dropdown_text {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: 5px;
+    background: var(--chou-purple);
+    padding: 10px 22px;
+    border-radius: 2px;
+    z-index: 1;
+    display: none;
+}
+
+.navbar_dropdown_text a {
+    display: block;
+    padding: 8px 0;
+    font-size: 13px;
+    color: var(--color-white);
+    text-transform: none;
+    cursor: pointer;
+}
+
+.navbar_dropdown:hover .navbar_dropdown_text {
+    display: block;
+}

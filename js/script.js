@@ -3,6 +3,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   AOS.init({
     duration: 1000,   
-    offset: 100,      
+    offset: 100,  
+    once: true    
   });
 });

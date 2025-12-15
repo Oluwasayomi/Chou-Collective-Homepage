@@ -266,3 +266,34 @@ a {
         height: 24px;
         }
 }
+
+/* Weaving media queries */
+@media screen and (max-width: 900px) {
+        .hero_weaving-text h2 {
+        font-size: 24px;
+        }
+}
+
+@media screen and (max-width: 660px) {
+        .hero_weaving-text h2 {
+        font-size: 18px;
+        }
+
+        .hero_weaving-text p {
+        font-size: 12px;
+        line-height: 12px;
+        margin: 5px 0px;
+        }
+}
+
+@media screen and (max-width: 450px) {
+        .hero_weaving-text h2 {
+        font-size: 14px;
+        }
+
+        .hero_weaving-text p {
+        font-size: 10px;
+        line-height: 12px;
+        margin: 5px 0px;
+        }
+}

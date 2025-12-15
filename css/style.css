@@ -272,6 +272,10 @@ a {
         .hero_weaving-text h2 {
                 font-size: 24px;
         }
+
+        .hero_weaving-text p {
+                font-size: 12px;
+        }
 }
 
 @media screen and (max-width: 660px) {

@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.text-box {
+.banner_text-box {
    position: absolute;
    top: 50%;
    left: 50%;
@@ -16,7 +16,7 @@
    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-.text-box h1 {
+.banner_text-box h1 {
     text-transform: uppercase;
 }
 

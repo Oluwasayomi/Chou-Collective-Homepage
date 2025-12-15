@@ -196,6 +196,40 @@ a {
   scrollbar-width: none; /* Firefox */
 }
 
+/* General media queries */
+
+@media screen and (max-width: 900px) {
+        .subtitle {
+        font-size: 18px;
+        }
+
+        .title {
+        font-size: 50px;
+        }
+
+        .description {
+        font-size: 18px;
+        line-height: 18px;
+        margin: 16px 0px;
+        }
+}
+
+@media screen and (max-width: 650px) {
+        .subtitle {
+        font-size: 18px;
+        }
+
+        .title {
+        font-size: 32px;
+        }
+
+        .description {
+        font-size: 18px;
+        line-height: 18px;
+        margin: 16px 0px;
+        }
+}
+
 /* Header media queries */
 
 @media screen and (max-width: 900px) {

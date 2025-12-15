@@ -363,3 +363,28 @@ a {
         margin-top: 6px;
         }
 }
+
+/* Footer responsiveness */
+
+@media screen and (max-width: 900px) {
+        .footer {
+        padding: 40px 10%;
+        }
+}
+
+@media screen and (max-width: 600px) {
+        .footer {
+        padding: 20px 6%;
+        }
+
+        .footer_content_text-box h2 {
+        font-size: 24px;
+        }
+
+        .footer_content p,
+        .footer_copyright p,
+        .footer_privacy a {
+        font-size: 14px;
+        line-height: 16px;
+        }
+}

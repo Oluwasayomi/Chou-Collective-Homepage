@@ -42,8 +42,8 @@
 }
 
 .footer_content p,
-.footer_copyright,
-.footer_privacy {
+.footer_copyright p,
+.footer_privacy a {
     font-size: 16px;
     font-weight: 300;
     line-height: 26px;

@@ -47,6 +47,14 @@
     height: 100%;
 }
 
+.hero_weaving img {
+    transition: box-shadow 0.3s ease;
+}
+
+.hero_weaving img:hover {
+    box-shadow: 0 0 20px var(--chou-purple);
+}
+
 .hero_weaving-box1 {
     grid-row: 1/10;
 }
@@ -129,6 +137,14 @@
     height: 100%; 
 }
 
+.legacy_grid img {
+    transition: box-shadow 0.3s ease;
+}
+
+.legacy_grid img:hover {
+    box-shadow: 0 0 20px var(--chou-purple);
+}
+
 .legacy-box1 {
     grid-row: 1/3;
 }
@@ -207,6 +223,14 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.ensemble_image img {
+    transition: box-shadow 0.3s ease;
+}
+
+.ensemble_image img:hover {
+    box-shadow: 0 0 20px var(--chou-purple);
 }
 
 .ensemble_text-box {

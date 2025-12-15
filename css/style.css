@@ -184,3 +184,51 @@ a {
 
   margin: 16px 0px;
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.art__hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.art__hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Header media queries */
+
+@media screen and (max-width: 900px) {
+        .header_menu {
+        display: none;
+        }
+
+        .header_menu-mobile {
+        display: flex;
+        }
+}
+
+@media screen and (max-width: 550px) {
+        .header_logo {
+        display: none;
+        }
+
+        .contact_btn {
+        padding: 16px 16px;
+        border-radius: 25px;
+        min-width: 50px;
+        outline: none;
+        border: none;
+        font-size: 12px;
+        line-height: 12px;
+        background: var(--fuschia);
+        cursor: pointer;
+        color: var(--color-white);
+        text-transform: uppercase;
+        } 
+
+        .header_menu-mobile img {
+        width: 24px;
+        height: 24px;
+        }
+}

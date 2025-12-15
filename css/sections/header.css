@@ -136,3 +136,16 @@ header {
     background: transparent;
     color: var(--fuschia);
 }
+
+.header_menu-mobile {
+    list-style: none;
+    display: none;
+    gap: 20px;
+    position: relative;
+}
+
+.header_menu-mobile img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}

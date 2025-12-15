@@ -310,3 +310,56 @@ a {
         padding-bottom: 20px;
         }
 }
+
+/* Ensemble media queries */
+
+@media screen and (max-width: 900px) {
+        .ensemble {
+        padding: 0 10% 5% 10%;
+        }
+
+        .ensemble_text-box p {
+        font-size: 16px;
+        line-height: 16px;
+        }
+
+        .ensemble_content button {
+        padding: 16px 30px;
+        min-width: 50px;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 20px;
+        }
+}
+
+@media screen and (max-width: 700px) {
+        .ensemble {
+        padding: 0 6% 5% 6%;
+        }
+
+        .ensemble_header span {
+        font-size: 24px;
+        }
+        
+        .ensemble_content {
+        gap: 6px;
+        margin-top: 20px;
+        }
+
+        .ensemble_text-box {
+        padding: 0 50px 0 20px;
+        }
+
+        .ensemble_text-box p {
+        font-size: 12px;
+        line-height: 12px;
+        }
+
+        .ensemble_content button {
+        padding: 16px 20px;
+        min-width: 30px;
+        font-size: 12px;
+        line-height: 12px;
+        margin-top: 6px;
+        }
+}

@@ -35,7 +35,7 @@ header {
 .header_menu li {
     position: relative;
     font-family: var(--OpenSans);
-    font-weight: 900;
+    font-weight: 700;
     color: var(--chou-purple);
     font-size: 20px;
     text-transform: uppercase;

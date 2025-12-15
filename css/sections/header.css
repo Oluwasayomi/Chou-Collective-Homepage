@@ -3,20 +3,31 @@ header {
     position: sticky;
     top: 0;
     z-index: 1;
-    background: linear-gradient(180deg, rgba(255,255,255,0.9) 90%, transparent);
+    background: linear-gradient(180deg, rgba(255,255,255,0.9));
 }
 
 .header_nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 20px;
     width: 100%;
+}
+
+.header_logo {
+    flex: 0 0 auto;
+}
+
+.header_logo img {
+    width: 168px;
+    display: block;
 }
   
 .header_menu {
     padding-top: 32px;
+    flex: 1;
     display: flex;
+    justify-content: center;
     gap: 20px; 
     list-style: none;
 }
@@ -102,4 +113,26 @@ header {
 
 .navbar_dropdown:hover .navbar_dropdown_text {
     display: block;
+}
+
+.header_contact {
+    flex: 0 0 auto;
+}
+
+.contact_btn {
+    display: flex;
+    padding: 20px 20px;
+    border-radius: 25px;
+    min-width: 100px;
+    outline: none;
+    border: none;
+    background: var(--fuschia);
+    cursor: pointer;
+    color: var(--color-white);
+    text-transform: uppercase;
+}
+
+.contact_btn:hover {
+    background: transparent;
+    color: var(--fuschia);
 }

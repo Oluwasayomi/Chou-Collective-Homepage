@@ -4,33 +4,23 @@
 
 A demo webpage made in less than a week for Chou Collective. 
 
-<!--
-
 ## 🛠 Technologies
 
 * HTML
 * Vanilla CSS
 * JavaScript
-* React.js
-* Vite
-* Firebase
-* Toastify
 
 ## 💡 Features
 
 Here are the website's features:
 
-* Sign-in/Sign-up page
+* One-page animated webpage.
 * Animated buttons on hover.
-* Complementary colour theme (brown, black, and white).
+* Complementary colour theme (blue, gold, and white).
 * Aesthetically pleasing visualisation and interaction.
-* Event listener (for the button, navbar, and login)
-* Book details (making use of the book ID)
-* React Toastify for beautiful notifications.
-* Api key implementation for the database.
-* Environment variable to protect said api information.
-* App responsiveness for different screen sizes. 
+* Event listener (for the button and navbar)
 
+<!--
 ## ✍️ The Process
 
 Oftentimes, websites/apps for books are very well organised, with various genres and recommendations. However, when you click on a beloved author's page, all their books are simply categorised under 'Published Books', leaving it up to the Author to make their page intuitive enough so that readers know which books would catch their fancy. 
@@ -47,6 +37,8 @@ Afterwards, I worked on the styling based on the screen size, ensuring the websi
 Finally, I added a logout dropdown and made other necessary adjustments/bug fixes to ensure the web app was fully functional.
 
 This was a full-stack development challenge that aimed to connect literature and technology through intuitive design, personalised book discovery, and secure, scalable architecture.
+
+## How it can be improved
 
  <!-- Can also add 'What I Learned'(like new features, also include Overall growth), and 'How it can be improved' (This one is bullet points)  --> 
 
